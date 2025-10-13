@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration</title>
+</head>
+<body>
+  <h1>Registration Form</h1>
+  <form>
+    <label>Name: <input type="text" name="name" required></label><br><br>
+    <label>Reg No: <input type="text" name="regno" required></label><br><br>
+    <label>Email: <input type="email" name="email"></label><br><br>
+    <label>Password: <input type="password" name="password"></label><br><br>
+
+    <label>Course:
+      <select name="course">
+        <option>CS224L</option>
+        <option>CS301</option>
+        <option>CS310</option>
+      </select>
+    </label><br><br>
+
+    Semester:
+    <label><input type="radio" name="semester" value="5th"> 5th</label>
+    <label><input type="radio" name="semester" value="6th"> 6th</label><br><br>
+
+    <label><input type="checkbox" required> I agree to the terms</label><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
